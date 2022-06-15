@@ -1,0 +1,119 @@
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .list .list-item:nth-child(3),
+    .list .list-item:nth-child(4),
+    .list .list-item:nth-last-child(3),
+    .fa-user-circle,
+    .fa-sign-in-alt{
+        display: none;
+    }
+    .fa-bars{
+        position: absolute;
+        display: inherit;
+        right: -50px;
+        cursor: pointer;
+    }
+    .modal{
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 80px;
+        background-color: rgba(0, 0, 0, 0.2);
+        z-index: 3;
+        transition: var(--tran-025);
+    }
+    .list-mb{
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 50%;
+        left: 65%;
+        list-style: none;
+        background-color: var(--bg-blur);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        transition: var(--tran-025);
+        animation: menu-mb ease .5s;
+        border-radius: 0 0 0 10px;
+        overflow: hidden;
+    }
+    .list-item-mb{
+        display: block;
+        padding: 5px 0 5px 0;
+        border-bottom: 1px solid var(--txtcolor-gray);
+    }
+    .headersp{
+        position: fixed;
+        top: 80px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        overflow: inherit;
+    }
+    .headersp .navbar_2 .list2:first-child{
+        display: none;
+    }
+    .list2 .list2-item{
+        padding: 0 40px;
+        cursor: pointer;
+    }
+    
+    .page-style2{
+        margin-top:40px;
+        margin-bottom: -40px;
+    }
+    .product-card{
+        height: 420px;
+    }
+    .product-card h3{
+        font-size: 20px;
+    }
+    .product-card-body{
+        font-size: 16px;
+    }
+    .container__chitiet__info{
+        min-height: 300px;
+        margin-top: 10px;
+    }
+    .container__chitiet__info-heading{
+        font-size: 30px;
+    }
+    .container__chitiet__info-desc, .container__chitiet__info-desc2{
+        font-size: 16px;
+    }
+    .layout__button{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 10% 20% 10% 20%;
+        z-index: 1;
+        background-color: aliceblue;
+    }
+    .btn-buy{
+        margin: 10px 0 10px 0;
+    }
+
+}
+
+@keyframes menu-mb{
+    0%{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .product-card{
+        height: 350px;
+    }
+    .product-card .product-card-img{
+        height: 220px;
+    }
+    .container__chitiet__info{
+        margin-top: 10px;
+    }
+}

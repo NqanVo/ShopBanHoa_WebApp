@@ -1,0 +1,26 @@
+Phát triển: 10/03/2022
+-Bổ sung quá trình thanh toán ở giỏ hàng.
+-Thanh toán tiền mặt, chuyển khoản.
+-Liệt kê thêm mục cho hóa đơn ở trang ADMIN.
+-Có thêm bảng cho CSDL
+
+Phát triển: 30/03/2022
+-Thêm bộ lọc giá cho sản phẩm
+
+Phát triển: 07/04/2022
+-Thêm thanh toán VNPAY
+-Có thêm bảng cho CSDL
+
+Phát triển: 28/04/2022
+-Tái cấu trúc Database
+
+Phát triển: 12/05/2022
+-Cải thiện UI-UX, reponsive.
+
+Phát triển: 15/05/2022
+-Thêm trạng thái cho đơn hàng, quá trình vận chuyển.
+-Thêm thống kê đơn hàng, vận chuyển cho trang quản trị.
+-Có thêm bảng cho CSDL
+
+
+
